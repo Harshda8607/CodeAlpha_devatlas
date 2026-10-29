@@ -15,6 +15,12 @@ const SKILLS = [
 ];
 // Add `github` and `demo` URLs to a project when you have them; buttons appear automatically.
 const PROJECTS = [
+  { title: 'Smart Calculator', category: 'Web', image: 'assets/projects/p4.svg', tech: ['HTML', 'CSS', 'JavaScript'],
+    description: 'A calculator with history, memory functions and a scientific mode.',
+    details: 'Built with HTML, CSS and vanilla JavaScript using a safe expression parser (no eval), with calculation history, memory functions, scientific mode and light/dark themes.', github: '', demo: 'projects/smartcalc/index.html' },
+  { title: 'Interactive Image Gallery', category: 'Web', image: 'assets/projects/p5.svg', tech: ['HTML', 'CSS', 'JavaScript'],
+    description: 'A responsive, interactive image gallery.',
+    details: 'A responsive image gallery built with HTML, CSS and JavaScript.', github: '', demo: '' },
   { title: 'Internship & Placement Management System', category: 'Mobile App', image: 'assets/projects/p1.svg', tech: ['Android', 'Mobile Application'],
     description: 'An Android app to manage internship and placement activities in one place.',
     details: 'A mobile application designed to bring internship and placement activities together in one easy-to-use app.', github: '', demo: '' },
